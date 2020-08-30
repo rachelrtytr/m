@@ -1,0 +1,124 @@
+.days {
+    float: left;
+    margin-right: 4px;
+}
+
+.hours {
+    float: left;
+    width: 75px;
+    height: 75px;
+    font: 700 40px/80px sans-serif;
+    text-align: center;
+    color: #0066cc;
+}
+
+.minutes {
+    float: left;
+    width: 75px;
+    height: 75px;
+    font: 700 40px/80px sans-serif;
+    text-align: center;
+    color: #0066cc;
+    margin-left: 20px;
+}
+
+.seconds {
+    float: left;
+    width: 75px;
+    height: 75px;
+    font: 700 40px/80px sans-serif;
+    text-align: center;
+    color: #0066cc;
+    margin-left: 15px;
+}
+
+.clearDiv {
+    clear: both;
+}
+
+.timers {
+    display: inline-block;
+    clear: both;
+    margin-top: 10px;
+    text-align: right;
+    position: relative;
+    z-index: 1;
+}
+
+.timer-body {
+    position: relative;
+    margin-top: -15px;
+}
+
+.timer-body * {
+    color: #0066cc;
+    font-size: 45px;
+}
+
+.timer-item {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 14px;
+    color: #333333;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#timercountdown,
+#timercountdown0 {
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.timer-item.first {
+    top: 0;
+    z-index: 0;
+    margin-top: -25px;
+}
+
+.timer-item.second {
+    top: 0;
+    z-index: 0;
+    left: 95px;
+    margin-top: -25px;
+}
+
+.timer-item.third {
+    top: 0;
+    z-index: 0;
+    left: 185px;
+    margin-top: -25px;
+}
+
+.timer-item.first {
+    top: 0;
+    z-index: 0;
+    margin-top: 0;
+}
+
+.timer-item.second {
+    top: 0;
+    z-index: 0;
+    left: 95px;
+    margin-top: 0px;
+}
+
+.timer-item.third {
+    top: 0;
+    z-index: 0;
+    left: 185px;
+    margin-top: 0px;
+}
+
+.timer-body {
+    position: relative;
+    margin-top: 10px;
+}
+
+.timers {
+    z-index: 1;
+}
